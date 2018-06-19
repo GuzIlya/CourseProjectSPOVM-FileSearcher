@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetRegExpWindow</class>
+ <widget class="QDialog" name="SetRegExpWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>425</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>New RegEx</string>
+  </property>
+  <widget class="QTextBrowser" name="resultBrowser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="finishButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>280</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Finish formation</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="chooseElemBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>171</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Choose element to add:</string>
+   </property>
+   <widget class="QRadioButton" name="symbolButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Symbol</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="anyLetterButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Any letter</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="anyNumberButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Any number</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="anySymbolButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Any symbol</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="startCountOfSymbols">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>290</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="endCountOfSymbols">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>290</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>290</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>From</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>290</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>to                     .</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter count оf symbols:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addElemButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>30</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add element</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="enterSymbolLabel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>120</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter symbol:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enterSymbolLine">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>120</y>
+     <width>31</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="selectLanguageBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>160</y>
+     <width>131</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Select language:</string>
+   </property>
+   <widget class="QRadioButton" name="englishButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>English</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="russianButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Russian</string>
+    </property>
+   </widget>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>resultBrowser</zorder>
+  <zorder>finishButton</zorder>
+  <zorder>chooseElemBox</zorder>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>addElemButton</zorder>
+  <zorder>enterSymbolLabel</zorder>
+  <zorder>enterSymbolLine</zorder>
+  <zorder>selectLanguageBox</zorder>
+  <zorder>startCountOfSymbols</zorder>
+  <zorder>endCountOfSymbols</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

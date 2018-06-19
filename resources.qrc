@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/myFiles">
+        <file>plus.png</file>
+        <file>Magnifier.png</file>
+        <file>plus-512.png</file>
+    </qresource>
+</RCC>

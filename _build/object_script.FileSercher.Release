@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\filesearcher.o
+./release\setregexpwindow.o
+./release\fileinfowindow.o
+./release\helpwindow.o
+./release\qrc_resources.o
+./release\moc_mainwindow.o
+./release\moc_setregexpwindow.o
+./release\moc_fileinfowindow.o
+./release\moc_helpwindow.o
+);

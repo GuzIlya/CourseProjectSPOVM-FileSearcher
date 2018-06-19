@@ -1,0 +1,98 @@
+QLabel{
+     font: 14px;
+     font-family: Courier New;	
+}
+
+/*QLabel#label, label_2, label_3, label_4, label_5, label_6, label_7, label_8{
+     font: 12px;
+     font-family: Courier New; 
+     font-weight: bold
+}*/
+
+QLineEdit {
+     border: 2px seagreen;
+     border-radius: 10px;
+     padding: 0 8px;
+     background: lightgreen;
+     font-family: Courier New;
+     selection-background-color: darkgray;
+ }
+
+
+QPushButton {
+     background-color: lightgreen;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: seagreen;
+     font: 12px;
+     font-family: Courier New; 
+     padding: 6px;
+}
+
+ QPushButton:hover {
+     background-color: forestgreen;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: darkgreen;
+     font: 12px;
+     font-family: Courier New;
+     padding: 6px;
+ }
+
+QLineEdit {
+     font: 12px;
+     font-family: Courier New;
+}
+
+QTextBrowser{
+     border: 2px seagreen;
+     border-radius: 10px;
+     padding: 0 8px;
+     background: lightgreen;
+     font-family: Courier New;
+     selection-background-color: darkgray;
+     font: 12px;
+}
+
+QGroupBox{
+     font: 12px;
+     font-family: Courier New; 
+}
+
+QRadioButton{
+     font: 12px;
+     font-family: Courier New; 
+}
+
+QListWidget{
+     font: 12px;
+     font-family: Courier New; 
+     border: 2px seagreen;
+     border-radius: 10px;
+     padding: 0 8px;
+     background: lightgreen;
+     selection-background-color: darkgray;
+}
+
+QComboBox{
+     border: 2px seagreen;
+     border-radius: 10px;
+     padding: 0 8px;
+     background: lightgreen;
+     font-family: Courier New;
+     selection-background-color: darkgray;
+     font: 12px;
+}
+
+QMainWindow{
+	background-color: honeydew;	
+}
+
+FileInfoWindow{
+	background-color: honeydew;	
+}
+SetRegExpWindow{
+	background-color: honeydew;	
+}

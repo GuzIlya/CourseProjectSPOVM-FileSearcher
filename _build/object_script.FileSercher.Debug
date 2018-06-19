@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\filesearcher.o
+./debug\setregexpwindow.o
+./debug\fileinfowindow.o
+./debug\helpwindow.o
+./debug\qrc_resources.o
+./debug\moc_mainwindow.o
+./debug\moc_setregexpwindow.o
+./debug\moc_fileinfowindow.o
+./debug\moc_helpwindow.o
+);
